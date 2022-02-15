@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title: 'About Me',
-        url: 'http://localhost:3000/AboutMe',
+        url: '#',
         cName: 'Nav-Links'
     },
     {

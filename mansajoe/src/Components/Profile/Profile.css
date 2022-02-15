@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+    background-color: #5AE084;
+    padding: 25px 30%;
+}
+
+.flex-container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+    background-color: #5AE084;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px 50px;
+}
+
+@media screen and (max-width: 1100px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

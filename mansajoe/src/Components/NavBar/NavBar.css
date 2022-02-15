@@ -1,5 +1,5 @@
 .NavBarItems {
-    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
+    background-color: #FAD7B5;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .NavBar-Logo {
-    color: #ffff;
+    color: #2C944D;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -32,15 +32,16 @@
 }
 
 .Nav-Links {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 00.5rem 1rem;
 }
 
 .Nav-Links:hover {
-    background-color: #6d76f7;
+    background-color: #2C944D;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: white;
 }
 
 .fa-bars {
@@ -73,7 +74,7 @@
     }
 
     .Nav-Menu.active {
-        background: #6668f4;
+        background: #FAD7B5;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -88,7 +89,7 @@
     }
 
     .Nav-Links:hover {
-        background-color: #7577fa;
+        background-color: #2C944D;
         border-radius: 0;
     }
 
@@ -121,15 +122,15 @@
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background: #4ad9e4;
+        background: #FAD7B5;
         text-decoration: none;
-        color: #ffff;
+        color: black;
         font-size: 1.5rem;
     }
 
     .Nav-Links-Mobile:hover {
-        background: #fff;
-        color: #6568f4;
+        background: #2C944D;
+        color: white;
         transition: 250ms;
     }
 

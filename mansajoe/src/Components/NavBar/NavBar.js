@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {MenuItems} from "./MenuItems"
+import { MenuItems } from "./MenuItems"
 import './NavBar.css'
 import { Button } from "../Buttons"
 
