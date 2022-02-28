@@ -1,6 +1,6 @@
 .NavBarItems {
-    background-color: #FAD7B5;
-    height: 80px;
+    background-color: #5AE084;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .NavBar-Logo {
-    color: #2C944D;
+    color: black;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -17,7 +17,6 @@
 .fa-react {
     margin-left: 0.5rem;
     font-size: 1.6rem;
-
 }
 
 .Nav-Menu {

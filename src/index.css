@@ -7,14 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .flex-container {
   display: flex;
-  background-color: #FAD7B5;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
+  flex: 100%;
+  padding: 25px 30%;
 }
