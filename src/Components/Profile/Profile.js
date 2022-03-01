@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Profile.css'
 import pfpicture from './Images/Me.jpg'
+import { SocialIcon } from 'react-social-icons';
 
 class Profile extends Component {
     render() {
@@ -13,9 +14,8 @@ class Profile extends Component {
                 <div><img src={pfpicture} className='profile-picture' alt='Of Joseph King'></img></div>
                 <div>
                     <h3>Social Media</h3>
-                    <a href='https://twitter.com/Mansa_joe'>Twitter</a>
-                    <br></br>
-                    <a href='https://www.linkedin.com/in/joeking853/'>Linkedin</a>
+                    <div className='socialIcon'><SocialIcon url="https://twitter.com/Mansa_joe" /></div>
+                    <div><SocialIcon url="https://www.linkedin.com/in/joeking853/" /></div>
                 </div>
             </div>
         )
