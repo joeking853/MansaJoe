@@ -14,7 +14,7 @@ class Profile extends Component {
                 <div><img src={pfpicture} className='profile-picture' alt='Of Joseph King'></img></div>
                 <div>
                     <h3>Social Media</h3>
-                    <div className='socialIcon'><SocialIcon url="https://twitter.com/Mansa_joe" /></div>
+                    <div className='socialIcon'></div>
                     <div><SocialIcon url="https://www.linkedin.com/in/joeking853/" /></div>
                 </div>
             </div>
