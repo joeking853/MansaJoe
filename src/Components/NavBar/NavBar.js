@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { MenuItems } from "./MenuItems"
+import { Link } from "react-router-dom";
 import './NavBar.css'
 
 class NavBar extends Component {
@@ -13,7 +14,7 @@ class NavBar extends Component {
         return(
 
             <nav className="NavBarItems">
-                <h1 className="NavBar-Logo"><a href='#'>Joseph King</a></h1>
+                <h1 className="NavBar-Logo"><Link to="/Home">Joseph King</Link></h1>
                 <div className="Menu-Icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

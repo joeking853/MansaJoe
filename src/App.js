@@ -5,8 +5,7 @@ import Profile from './Components/Profile/Profile';
 import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact/Contact';
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <NavBar />
@@ -17,4 +16,3 @@ function App() {
   );
 }
 
-export default App;
